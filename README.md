@@ -9,9 +9,8 @@ A la aplicación no está en funcionamiento, hace falta la implementación:
 1. Relación el archivo html con el estilo (CSS).
 2. Relación el archivo html con la funcionalidad (JS).
 3. Realizar los cálculos del subtotal, IVA y total en el archivo JS.
-4. Almacenar en el local storage los últimos valores usados del procentaje de Cash Discount e IVA.
+4. Almacenar en el local storage los últimos valores usados del porcentaje de Cash Discount e IVA.
 5. Verificar la existencia en el local storage de los últimos valores usados de Cash Discont e IVA. En caso de existir establecer esos valores en los input.
-
 
 ## Características
 
@@ -40,3 +39,7 @@ Si el precio indicado en el ticket es $175.50, el cálculo sería:
 - Descuento Efectivo (2.25%): $3.95
 - IVA (16%): $27.45
 - Precio final: $175.50 - $3.95 + $27.45 = $199.00 
+
+## Solución
+
+La solución del ejercicio está en el rama `develop` y lo podrás ver en https://costco-price.netlify.app
