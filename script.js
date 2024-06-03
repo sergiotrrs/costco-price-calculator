@@ -6,10 +6,10 @@ function calculatePrice() {
     const cashDiscount = document.getElementById("cash_discount").value / 100;
     const iva = document.getElementById("iva").value / 100;
 
-    // TODO: Implement calculations for subtotal, ivaAmount, and total in this section
-    let subtotal = 0;
-    let ivaAmount = 0;
-    let total = 0;
+    // Calculations for subtotal, ivaAmount, and total
+    let subtotal = price - (price * couponDiscount) - (price * cashDiscount);
+    let ivaAmount = subtotal * iva;
+    let total = subtotal + ivaAmount;
 
     // Send the results to the UI indicators
     document.getElementById("subtotal").innerHTML = `${subtotal.toFixed(2)}`;
