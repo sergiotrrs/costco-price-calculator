@@ -9,7 +9,7 @@ body {
 /* CSS class selector */
 .container {
     max-width: 600px;
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 5px;
     background-color: #333;
     border: 1px solid #444;
