@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculator</title>
+
+</head>
+
+<body>
+    <main class="container">
+        <h1>Price Calculator</h1>
+        <form>
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required><br>
+            <label for="coupon_discount">Coupon Discount (%):</label>
+            <input type="number" id="coupon_discount" name="coupon_discount" required><br>
+            <label for="cash_discount">Cash Discount (%):</label>
+            <input type="number" id="cash_discount" name="cash_discount" required><br>
+            <label for="iva">IVA (%):</label>
+            <input type="number" id="iva" name="iva" required><br>
+            <button type="button">Calculate</button>
+        </form>
+        <section class="results">
+            <p>Subtotal: $ <span id="subtotal">0.00</span></p>
+            <p>IVA: $ <span id="iva_amount">0.00</span></p>
+            <h2>Total: $ <span id="total">0.00</span></h2>
+        </section>
+    </main>
+
+</body>
+
+</html>
